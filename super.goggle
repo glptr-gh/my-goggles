@@ -1,0 +1,53 @@
+! name: Super Goggle
+! description: Favorisce testate giornalistiche, riviste scientifiche, enciclopedie, archivi, cataloghi e biblioteche digitali, senza escludere il resto del web.
+! public: false
+! author: Gianluca
+
+! Giornali
+$boost=2,site=ilpost.it
+$boost=2,site=internazionale.it
+$boost=2,site=nytimes.com
+$boost=2,site=newyorker.com
+$boost=2,site=vox.com
+$boost=2,site=apnews.com
+$boost=2,site=washingtonpost.com
+$boost=2,site=theguardian.com
+$boost=2,site=elpais.com
+$boost=2,site=lemonde.fr
+$boost=2,site=liberation.fr
+$boost=2,site=aljazeera.com
+$boost=2,site=aljazeera.net
+
+! Enciclopedie
+$boost=2,site=wikipedia.org
+$boost=2,site=it.wikipedia.org
+$boost=2,site=en.wikipedia.org
+$boost=2,site=fr.wikipedia.org
+$boost=2,site=es.wikipedia.org
+$boost=2,site=ar.wikipedia.org
+
+! Riviste e testate scientifiche
+$boost=2,site=nature.com
+$boost=2,site=science.org
+$boost=2,site=lescienze.it
+$boost=2,site=scientificamerican.com
+$boost=2,site=newscientist.com
+$boost=2,site=pourlascience.fr
+$boost=2,site=scholar.google.com
+$boost=2,site=webofscience.com
+
+! Cataloghi e siti bibliografici
+$boost=2,site=sbn.it
+$boost=2,site=worldcat.org
+$boost=2,site=bne.es
+
+! Biblioteche digitali
+$boost=2,site=europeana.eu
+$boost=2,site=bnf.fr
+$boost=2,site=loc.gov
+$boost=2,site=internetculturale.it
+$boost=2,site=archive.org
+
+! Archivi
+$boost=2,site=archivesportaleurope.net
+$boost=2,site=francearchives.gouv.fr
